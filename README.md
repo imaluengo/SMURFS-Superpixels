@@ -1,5 +1,5 @@
 # SMURFS
-## Superpixels from multi-scale refinement of super-regions
+## Superpixels from Multi-scale Refinement of Super-regions
 
 Python plug&play library version of SMURFS. Easy to try different functions & parameters of the algorithm with the `pysmurfs` library.
 
@@ -45,25 +45,25 @@ optional arguments:
 
 Example runs:
 
-- SMURFS: 200 superpixels
+- **SMURFS:** 200 superpixels
 
 	```bash
 	$> python run_smurfs.py /data/BSR/BSDS500/data/images/test/100007.jpg 200 --plot
 	```
 
-- Quick SMURFS (qSMURFS): 200 superpixels running a single iteration of SMURFS
+- **Quick SMURFS (qSMURFS):** 200 superpixels running a single iteration of SMURFS
 
 	```bash
 	$> python run_smurfs.py /data/BSR/BSDS500/data/images/test/100007.jpg 200 --quick --plot
 	```
 
-- Regular SMURFS (rSMURFS): 200 superpixels with more regular shape
+- **Regular SMURFS (rSMURFS):** 200 superpixels with more regular shape
 
 	```bash
 	$> python run_smurfs.py /data/BSR/BSDS500/data/images/test/100007.jpg 200 --regular --plot
 	```
 
-- Quick Regular SMURFS (qrSMURFS): 200 superpixels running a single iteration of rSMURFS
+- **Quick Regular SMURFS (qrSMURFS):** 200 superpixels running a single iteration of rSMURFS
 
 	```bash
 	$> python run_smurfs.py /data/BSR/BSDS500/data/images/test/100007.jpg 200 --quick --regular --plot
@@ -94,3 +94,11 @@ Publication available at:
 [http://www.bmva.org/bmvc/2016/papers/paper004/index.html](http://www.bmva.org/bmvc/2016/papers/paper004/index.html)
 
 **NOTE:** This is the Python version of the above publication, resulting in the same accuracy but sightly worse speed. Fully functional and stable C++ version, as presented in the above paper, is coming soon.
+
+## Acknowledgements
+
+Work in collaboration between:
+
+- [University of Nottingham -- Computer Vision Laboratory](http://cvl.cs.nott.ac.uk/)
+
+- [Diamond Light Source](http://www.diamond.ac.uk/Home.html)
