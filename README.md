@@ -8,13 +8,23 @@ Python plug&play library version of SMURFS. Easy to try different functions & pa
 Obtain the code:
 
 ```bash
-$> git clone https://github.com/imaluengo/SMURFS.git
+$> git clone https://github.com/imaluengo/SMURFS-Superpixels.git
+$> cd SMURFS-Superpixels/
 ```
 
-Install python dependencies:
-```bash
-$> pip install --upgrade numpy scikit-image scikit-learn cython matplotlib
-```
+Install `python` dependencies:
+
+- If using [Anaconda distribution](https://www.continuum.io/downloads) (recommended if no python distribution is installed on your system):
+
+	```bash
+	$> conda update numpy scikit-image scikit-learn cython matplotlib
+	```
+
+- Other `python` distributions:
+
+	```bash
+	$> pip install --upgrade numpy scikit-image scikit-learn cython matplotlib
+	```
 
 Compile library:
 ```bash
